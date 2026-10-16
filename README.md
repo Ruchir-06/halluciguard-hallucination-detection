@@ -108,6 +108,8 @@ Answer-level trust (83 answers, 33 contain an unsupported sentence), AUROC of ea
 
 Caveat: loose-prompt answers are both less confident and more often unsupported, so the strong token-probability result partly measures the prompt mode, not hallucination alone. The document component carries no information while every document has the same authority.
 
+..
+
 ## Notes and limitations
 
 - **Logprobs**: Ollama (`qwen2.5:3b`) returns per-token logprobs, so the token-probability component is used.
